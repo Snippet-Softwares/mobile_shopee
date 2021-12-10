@@ -19,6 +19,14 @@ button, button:focus {
   font-family: "Rubik", cursive;
 }
 
+.font-size-10 {
+  font-size: 10px;
+}
+
+.font-size-11 {
+  font-size: 11px;
+}
+
 .font-size-12 {
   font-size: 12px;
 }
@@ -90,6 +98,11 @@ button, button:focus {
 }
 #top-sale .owl-carousel .owl-nav button.owl-next span {
   margin-right: -3rem;
+}
+
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
