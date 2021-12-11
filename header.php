@@ -17,6 +17,9 @@
 
     <!-- Custom CSS file -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Require MySQL Connection -->
+    <?php require('functions.php'); ?>
 </head>
 <body>
     <!-- start header -->
