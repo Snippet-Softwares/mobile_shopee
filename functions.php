@@ -8,5 +8,11 @@
     /* Require MySQL Connection */
     require('database/DBController.php');
 
+    /* Require products fetcher */
+    require('database/product.php');
+
     /*DBController object*/
     $db = new DBController();
+
+    // product object
+    $product = new product($db);

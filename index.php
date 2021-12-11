@@ -4,7 +4,10 @@
 
     // include banner from file
     include('Template/_banner-area.php');
-    
+
+    // include top sale from file
+    include('Template/_top-sale.php');
+
     // include special price from file
     include('Template/_special-price.php');
     
